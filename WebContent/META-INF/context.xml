@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+  <Resource
+      name="jdbc/jripoc"
+      auth="Container"
+      type="javax.sql.DataSource"
+      driverClassName="com.mysql.cj.jdbc.Driver"
+      url="jdbc:mysql://10.0.0.110:3306/jripoc"
+      connectionProperties="autoReconnect=true;verifyServerCertificate=false;useSSL=false;requireSSL=false"
+      username="user"
+      password="password"
+      validationQuery="select 1"/>
+ </Context>
